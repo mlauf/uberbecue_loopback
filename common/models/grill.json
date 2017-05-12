@@ -1,0 +1,32 @@
+{
+  "name": "grill",
+  "plural": "grills",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Grill"
+    },
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "position": {
+      "type": "geopoint",
+      "required": true
+    },
+    "verfuegbar": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
