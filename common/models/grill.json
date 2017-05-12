@@ -7,14 +7,18 @@
     "validateUpsert": true
   },
   "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
     "name": {
       "type": "string",
       "required": true,
       "default": "Grill"
     },
-    "id": {
-      "type": "number",
-      "required": true
+    "description": {
+      "type": "string",
+      "required": false
     },
     "position": {
       "type": "geopoint",
