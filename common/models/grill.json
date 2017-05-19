@@ -20,6 +20,10 @@
       "type": "string",
       "required": false
     },
+    "grilltype": {
+      "type": "string",
+      "required": true
+    },
     "position": {
       "type": "geopoint",
       "required": true
